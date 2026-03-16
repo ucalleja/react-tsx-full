@@ -1,7 +1,7 @@
 {
   /* Accordion Component */
 }
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 interface AccordionProps {
   title: string;
