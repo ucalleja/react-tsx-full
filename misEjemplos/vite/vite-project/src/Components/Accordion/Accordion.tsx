@@ -11,9 +11,7 @@ interface AccordionProps {
 export const Accordion: React.FC<AccordionProps> = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  useEffect(() => {
-    setIsOpen(false);
-  }, [isOpen]);
+
 
   const toggleAccordion = () => {
     setIsOpen(!isOpen);
