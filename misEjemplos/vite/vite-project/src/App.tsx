@@ -1,6 +1,7 @@
 import "./App.css";
 import Autocomplete from "./Components/Autocomplete/Autocomplete";
 import { Sugus } from "./Components/Sugus/Sugus";
+import { Accordion } from "./Components/Accordion/Accordion";
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
 
       <Autocomplete />
 
+      <Accordion title="Accordion Title">
+        <p>This is the content of the accordion.</p>
+      </Accordion>
     </div>
   );
 }
